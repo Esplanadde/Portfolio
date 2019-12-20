@@ -2,3 +2,15 @@ body {
   background-color: lightgray;
   font: "helvetica Neue", "Arial", sans-serif;
 }
+
+.carousel-inner{
+position: relative;
+width: 100%;
+height: 500px;
+}
+
+.carousel-inner .item{
+height: 500px;
+width: 100%;
+
+}
