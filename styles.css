@@ -3,14 +3,20 @@ body {
   font: "helvetica Neue", "Arial", sans-serif;
 }
 
-.carousel-inner{
-position: relative;
-width: 100%;
-height: 500px;
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  height: 500px;
 }
 
-.carousel-inner .item{
-height: 500px;
-width: 100%;
-
+.carousel-inner .item {
+  height: 500px;
+  width: 100%;
 }
+
+#carouselid {
+  background-color: #c3c3c3;
+  padding: 2em;
+}
+
+/*# sourceMappingURL=styles.css.map */
