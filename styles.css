@@ -19,4 +19,16 @@ body {
   padding: 2em;
 }
 
+#cont1 {
+  background-color: darkred;
+  color: #e6e6e6;
+  min-height: 500px;
+}
+
+#cont2 {
+  background-color: #000066;
+  color: #e6e6e6;
+  min-height: 500px;
+}
+
 /*# sourceMappingURL=styles.css.map */

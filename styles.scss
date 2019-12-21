@@ -19,3 +19,15 @@ width: 100%;
   background-color: lighten(darkgray, 10%);
   padding: 2em;
 }
+
+#cont1 {
+  background-color: darkred;
+  color: darken(white, 10%);
+  min-height: 500px;
+}
+
+#cont2 {
+  background-color: lighten(darken(blue, 80%), 20%);
+  color: darken(white, 10%);
+  min-height: 500px;
+}
