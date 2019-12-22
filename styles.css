@@ -15,18 +15,18 @@ body {
 }
 
 #carouselid {
-  background-color: #c3c3c3;
+  background-color: #83838f;
   padding: 2em;
 }
 
 #cont1 {
-  background-color: darkred;
+  background-color: #0f4c81;
   color: #e6e6e6;
   min-height: 500px;
 }
 
 #cont2 {
-  background-color: #000066;
+  background-color: #7a3640;
   color: #e6e6e6;
   min-height: 500px;
 }
