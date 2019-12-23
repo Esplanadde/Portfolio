@@ -31,4 +31,10 @@ body {
   min-height: 500px;
 }
 
+#dred {
+  display: none;
+  position: relative;
+  top: 180px;
+}
+
 /*# sourceMappingURL=styles.css.map */
