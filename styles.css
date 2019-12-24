@@ -3,6 +3,14 @@ body {
   font: "helvetica Neue", "Arial", sans-serif;
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -31,10 +39,15 @@ body {
   min-height: 500px;
 }
 
-#dred {
-  display: none;
+#bblue {
   position: relative;
   top: 180px;
+}
+
+#bred {
+  position: relative;
+  top: 10px;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 /*# sourceMappingURL=styles.css.map */
