@@ -41,13 +41,13 @@ body {
 
 #bblue {
   position: relative;
+  display: none;
   top: 180px;
 }
 
 #bred {
   position: relative;
   top: 10px;
-  border-bottom: 1px solid #e6e6e6;
 }
 
 /*# sourceMappingURL=styles.css.map */
