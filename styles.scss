@@ -84,3 +84,11 @@ body {
   display: inline-block;
   vertical-align: baseline;
 }
+
+.mail {
+  transition: all 1s ease-out;
+}
+
+.mail.active {
+  transform: scale(1.2, 1.2);
+}

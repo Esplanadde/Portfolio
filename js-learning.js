@@ -9,9 +9,16 @@ $(document).ready(function() {
         element2['fade'+ ($(this).scrollTop()>700 ? 'In' : 'In')](1000);
     });
 
-    $('li').hover(function () {
-        $(this).addClass('animated pulse')
+    $('#contacts li').hover(function () {
+        $(this).addClass(' mail active')
     }, function () {
-        $(this).removeClass('animated pulse')
-    })
+        $(this).removeClass('active')
+    });
+
+
+    $('.mail').hover(function () {
+        $(this).addClass('active');
+    }, function () {
+        $(this).removeClass('active');
+    });
 });
