@@ -8,4 +8,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
         element2['fade'+ ($(this).scrollTop()>700 ? 'In' : 'In')](1000);
     });
+
+    $('li').hover(function () {
+        $(this).addClass('animated pulse')
+    }, function () {
+        $(this).removeClass('animated pulse')
+    })
 });
